@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "70093456937",
+    "project_id": "app-hyffin-db",
+    "storage_bucket": "app-hyffin-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70093456937:android:8cf0c8188361ba9fd27e38",
+        "android_client_info": {
+          "package_name": "com.sunkanmi.MobileHyffinApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70093456937-dlrq2remcer69mv9tpa345hisgat5rpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sunkanmi.MobileHyffinApp",
+            "certificate_hash": "14b89828528ad43ceb21ec1cd1f3cd8f3e0bd91d"
+          }
+        },
+        {
+          "client_id": "70093456937-8231oebn3d376vfb4djvssgid2033ael.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT_0KX3bEKHAt8FABWhwz3QtcQY8EDibo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70093456937-8231oebn3d376vfb4djvssgid2033ael.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "70093456937-7duq7ren87utji6shao8t458cis55fo1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sunkanmi.MobileHyffinApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
