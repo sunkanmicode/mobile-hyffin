@@ -55,7 +55,7 @@ const UploadScreen = () => {
                   <TouchableOpacity
                     className="flex-1 h-40 w-40  bg-slate-100 rounded-t-lg"
                     onPress={() => {
-                      navigation.navigate("ItemDetails");
+                      navigation.navigate("ItemDetails", {item});
                     }}
                   >
                     <View className=" w-full  h-1/2">

@@ -15,7 +15,7 @@ export type HomeStackParamList = {
   HomeScreen: undefined;
   UploadStackNav: undefined;
   UploadScreen: undefined;
-  ItemDetails: undefined;
+  ItemDetails: { item: object };
   AddItem: undefined;
 
   //delete

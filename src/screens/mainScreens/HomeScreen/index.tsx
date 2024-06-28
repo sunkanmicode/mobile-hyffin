@@ -54,7 +54,7 @@ const HomeScreen = () => {
                 text2: "You have logged out",
               });
               await AsyncStorage.removeItem("token");
-              await getAuth(app).signOut();
+              await getAuth().signOut();
                await GoogleSignin.revokeAccess();
               //  const auth = getAuth(app);
               

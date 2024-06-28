@@ -125,10 +125,6 @@ const AddItem = ({ closeSheet }: any) => {
       receipt: receipt,
       description: textValue,
       photos: uploadData,
-      // photos: [
-        // "https://res.cloudinary.com/dwapthdu8/image/upload/v1719178515/clxs2hzns00n70hdhg079gekb_lnjjtv.png",
-      //   "https://res.cloudinary.com/dwapthdu8/image/upload/v1719179608/clxs35ffv00nm0gg7124e0ezw_unhxos.png",
-      // ],
     });
   };
 
@@ -287,6 +283,7 @@ const AddItem = ({ closeSheet }: any) => {
                     {item ? (
                       <View className="h-24 rounded-md border border-[#D3D3D3] m-1 items-center justify-center">
                         {ImgIsPending ? (
+                          // currentIndex == index &&
                           <ActivityIndicator />
                         ) : (
                           <Image
